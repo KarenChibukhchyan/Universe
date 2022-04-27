@@ -13,6 +13,7 @@ namespace Universe
             Student student3 = studentManager.Create("Santa", "Barbara", 20, new []{teacher1, teacher2});
             studentManager.Print(student1, student2, student3);
             teacherManager.Print(teacher1, teacher2);
+
         }
     }
 }
